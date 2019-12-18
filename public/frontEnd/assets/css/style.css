@@ -1,0 +1,835 @@
+html, 
+ scroll-behavior: smooth;
+
+body {
+
+  letter-spacing: -.3px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+
+}
+
+header {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+
+/*main {
+  position: relative;
+  width: 100%;
+}*/
+
+
+body.boxed {text-align: center;}
+body.boxed main {
+  display: inline-block;
+  text-align: left;
+  width: 1720px;
+}
+
+.float-right{
+    float: right;
+}
+section {
+position: relative;
+  width:100%;
+}
+.section-header-title{
+    text-align: center;
+    padding: 40px;
+    color: forestgreen;
+}
+
+.section-header-title h1 {
+    color:#64c560;
+    font-weight: 700;
+    font-size: 38px;
+}
+.section-header-title p {
+    color: #ffa0b2;
+    font-size: 20px;
+}
+.clearfix {
+    display:block;
+    clear:both;
+}
+.contact_header {
+    background: rgb(45, 136, 73);
+
+}
+.contact_header i {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    float: right;
+
+}
+.main-header{
+    transition: 0.35s all;
+    color: #000;
+    border-bottom: 1px solid #c7c4c4;
+}
+
+.is-sticky > .main-header {
+    z-index: 999999 !important;
+}
+.main-logo {
+    margin-top: 5px;
+}
+.main-logo img {
+    height: 58px;
+    padding-top: 5px;
+}
+
+.menu-bar {
+    float: right;
+}
+.menu-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+.menu-bar ul li{
+    display:inline-block;
+    position: relative;
+    cursor: pointer;
+    
+}
+.menu-bar ul li a {
+    display: block;
+    padding: 20px 15px;
+    color: #01133e;
+    transition: all 0.3s;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.menu-bar ul li a:hover {
+    background-color: #0cbd13;
+    color: #ffff;
+    padding: 10px;
+
+}
+
+.menu-bar ul li > ul.submenu {
+    position: absolute;
+    left: 0;
+    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    width: 210px;
+    z-index: 99;
+    background-color:#fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.menu-bar ul li > ul.submenu > li >a {
+    padding: 8px 22px;
+}
+.menu-bar ul li > ul.submenu > li {
+    display: block;
+}
+.menu-bar ul li:hover > ul.submenu {
+    opacity: 1;
+    visibility: visible;
+     transform: scaleY(1);
+     -webkit-transform: scaleY(1);
+} 
+/*===================logout Bar===========================*/
+
+.logout-bar{
+padding: 18px 45px;
+}
+.logout-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*=================== End logout Bar===========================*/
+.about-img  {
+    width: 100%;
+    height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  
+}
+.about-img h1{
+        width: 100%;
+    height: 100%;
+    
+    background-color: rgba(215, 255, 236, 0.36);
+    color: #fff;
+}
+.about-text{
+    height: 700px;
+    top:30%;
+    position: center;
+     
+     position: relative;
+
+}
+.about-text h2 {
+    color: #fffcfb;
+    font-size: 42px;
+    font-weight: 700;
+    background: #2d88499e;
+    padding: 20px 48px;
+}
+
+.about-text strong {
+    color: #048a08;
+}
+.about-text p {
+    font-weight: 400;
+    font-size: 20px;
+    background: #ffffff8f;
+    padding: 5px 10px;
+}
+
+ .icon {
+    color: #f75270;
+    padding: 8px;
+}
+.letter {
+    font-size: 18px;
+}
+
+
+.about-text-ul {
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+} 
+.gol-image img {
+    width: 100%;
+    padding-top: 75px;
+    height: 425px;
+}
+.sec-title {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.sec-title h2 {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #6fc56c;;
+}
+.sec-title h2.left:before {
+    position: absolute;
+    content: '';
+    background: #6fc56c;;
+    width: 60px;
+    height: 3px;
+    left: 0px;
+    bottom: -15px;
+}
+.gol-text h2{
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.gol-text-line{
+    position: absolute;
+    content: '';
+    background: #26cdff;
+    width: 50px;
+    height: 3px;
+    left: 0px;
+    bottom: -15px;
+
+}
+.sub-help-btn {
+    margin-top: 40px;
+}
+.dnt-btn {
+    margin-top: 10px;
+    float: right;
+    padding: 9px 20px;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    background:#f95364;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.dnt-btn a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+.dnt-btn:hover {
+    background: #0cbd13;;
+    color: #fff;
+}
+.dnt-menu-btn{
+    color: #fff!important;
+}
+.payment-company-image {
+    padding: 0px 25px;
+    
+}
+.banking_type_box {
+    text-align: center;
+    border: 1px solid #7e97ce;
+    margin-top: 40px;
+}
+.banking_type_box label {
+    background: #7e97ce;
+    width: 100%;
+    color: #fff;
+    text-align: -webkit-auto;
+    padding: 10px;
+}
+.payment-company-image img {
+    width: 118px;
+    padding: 18px;
+    height: 94px;
+}
+.about-box{
+   
+    height: 500px;
+    width: 100%;
+}
+.about-form h1{
+    font-size: 30px;
+    margin-top: 48px;
+    font-weight: bold;
+    color: forestgreen;
+    border-bottom: 2px solid forestgreen;
+    padding: 1px;
+}
+.about-form span{
+    color: orangered;
+    font-size: 33px;
+}
+.about-form p{
+    text-align: justify;
+}
+.about-form > ul li {
+  color: #444;
+  float: left;
+  position: relative;
+  padding: 0 15px 0 20px;
+  width: 50%;
+  margin-top: 10px;
+}
+.about-form > ul li:before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+.donar-box{
+   margin-top: 44px;
+    width: 70%;
+
+}
+.events-header-title{
+    color: #64c560;
+    padding: 45px 0px;
+}
+.events-img img{
+    width: 100%;
+    margin-top: 64px;
+}
+
+.services-box{
+cursor: pointer;
+transition: .5s;
+margin-bottom: 30px;
+    
+}
+.services-info {
+  border: 1px solid #eaeaf3;
+  padding: 11px;
+}
+
+.services-info h1 {
+    font-size: 28px;
+    
+}
+
+.services-info-number {
+    background: #f95e7b;
+    padding: 2px 30px 1px 17px;
+     border-radius: 5px 0px 0px 5px;
+    color: #fff;
+}
+
+.services-header h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: forestgreen;
+}
+.services-header{
+    text-align: center;
+    color: tomato;
+    padding: 40px;
+}
+
+.services-box i{
+    font-size: 55px;
+    padding: 2px 14px;
+    color: #4dda4d;
+    text-decoration: none;
+}
+.services-box:hover {
+    background: #dbffe6cf;
+    border-right: 4px solid #6daf58;
+    transform: scale(1.1, 1.1);
+    color: #fff;
+}}
+.services-box:hover a {
+    color: #000000;
+   
+}
+.services-info:hover  {
+   border: none;
+    
+}
+
+.services-info a{
+color: #373738;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px 19px;
+}
+
+.cause-box {
+   
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 13px 2px;
+}
+.urgent {
+    float: right;
+    color: #f7264d;
+    border: 1px solid;
+    padding: 3px 9px;
+    margin-top: 5px;
+}
+
+.cause-page {
+    
+    height: 500px;
+    margin-top: 20px;
+}
+
+.cause-img {
+    padding: 5px;
+}
+.cause-img img {
+    height: 90%;
+}
+.cause-info{
+    
+}
+.donar-btn2{
+    float: right;
+    padding-right: 34px;
+}
+.volenteer-header{
+    color: forestgreen;
+    text-align: center;
+    padding: 40px;
+
+}
+
+
+.volenteer-box{
+    transition: .5s;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.volenteer-img {
+    height: 265px;
+    border-radius: 3px;
+    
+}
+
+.volenteer-img img {
+    width: 140px;
+    height: 140px;
+    margin: 9px 61px;
+    border-radius: 50%;
+    padding: 4px;
+    box-shadow: -1px 5px #ff3762a1;
+    background: #fff;
+}
+.volenteer-social-icon {
+    text-align: center;
+    width: 100%;
+}
+.volenteer-info {
+    border-radius: 500%;
+    font-size: 16px;
+    color: #444040;
+}
+
+.volenteer-social-icon a i {
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 6px 2px;
+    color: #81ea25;
+}
+.count_box {
+    border-right: 1px solid #dad2d2;
+    text-align: center;
+    margin-top: 60px;
+}
+.count_boxa {
+    border-right:none;
+    text-align: center;
+    margin-top: 60px;
+}
+.count_icon {
+    font-size: 58px;
+    color: #81ea25;
+}
+.count_number h2 {
+    font-size: 60px;
+    color: #7f7a7a;
+}
+.count_text b {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 100;
+}
+.event-header{
+    color: forestgreen;
+    text-align: center;
+    margin: 32px;
+    font-size: 32px;
+}
+    
+.slider-event-img{
+   position: relative;
+  text-align: center;
+  color: white;
+    
+}
+.slider-event-img img {
+    height: 450px;
+}
+.slider-event-text{
+    position: absolute;
+    bottom: 14px;
+    padding-left: 20px;
+    background-color: rgba(196, 198, 202, 0.9);
+    width: 100%;
+    color: #333030d1;
+
+}
+.slider-img-num {
+    height: 71px;
+    width: 70px;
+    background-color: #f70436;
+    padding: 8px 12px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    
+}
+.slider-event-text strong{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.donar-header {
+    margin-top: 92px;
+    color: #797972;
+    padding-left: 80px;
+    font-size: 22px;
+}
+.donar-name {
+    margin: 17px -56px;
+}
+
+.donar-box-button {
+    margin: 22px 52px;
+    font-size: 29px;
+    color: #fff;
+    border-radius: 30px;
+}
+.donar-box-button b {
+    background: #818883;
+    margin: 29px 28px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-section{
+    background: linear-gradient(292deg, rgba(51,6,135,1) 0%, rgba(14,111,18,1) 0%, 
+    rgba(5,52,59,1) 0%, rgba(3,103,28,1) 0%, rgba(4,163,4,0.9864320728291317) 100%);
+    margin-top: 60px;
+    height: 150px;
+    color: #fff;
+}
+.donor-say-box{
+    border: 4px solid forestgreen;
+    border-radius: 25px 0px;
+    padding: 20px;
+    
+}
+.donor-say-name{
+     font-size: 20px;
+}
+.donor-say-info{
+    font-size: 18px;
+}
+/*================ Donate Form  =====================*/
+
+.donate-form-box{
+    background: #fff;
+    padding: 20px;
+    font-weight: 600;
+    
+}
+
+.donate-ammout span{
+    font-size: 30px;
+}
+.donate-ammout1 {
+    border: none;
+    outline: none;
+    padding: 8px 25px 7px 23px;
+    background-color: #7e97ce;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff!important;
+}  
+.donate-ammout1:hover {
+  background-color:#11e073;
+  color: white;
+}
+
+.center-input {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    border: 1px solid #d8bdbd;
+    width: 100%;
+}
+.border_box {
+    border: 1px solid #d8bdbd;
+    height: 40px;
+    width: 100%;
+    padding: 0px 10px;
+    color: #565252;
+}
+
+/*====================== End Donate Form  =============================*/
+
+/*====================== Volunteer Form  =============================*/
+.donor-personal-info{
+    border: 1px solid #e0dbdbd4;
+    padding: 14px 20px;
+}
+.volenteer-form-box{
+    padding: 22px 22px 3px;
+    font-size: 18px;
+    
+    /*background: #c400c5;*/
+   /* background: linear-gradient(292deg, rgba(51,6,135,1) 0%, rgba(14,111,18,1) 0%, 
+    rgba(5,52,59,1) 0%, rgba(3,103,28,1) 0%, rgba(4,163,4,0.9864320728291317) 100%);*/
+    
+    border: 1px solid green;
+    border-radius: 35px 0px 0px 35px;
+    font-weight: 400;
+
+}
+.volenteer-form-box input{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1d1f1df2;0202;
+}
+.volenteer-form-box input::placeholder {
+  font-size: 14px;
+  font-style: italic;
+    font-weight:normal;
+}
+.volenteer-form-box select{
+    background: #f5f2f2;
+    border: none;
+    border-radius: 16px 0px;
+    box-shadow: 10px 5px 5px green;
+    
+}
+.volenteer-form-box select option{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+/*====================== End Volunteer Form  =============================*/
+ .login-form-box {
+    
+    width: 350px;
+    padding: 22px 22px 3px;
+    font-size: 18px;
+    color: #f8f8ff;
+    border: none;
+    border-radius: 5px 5px 25px 5px;
+    font-weight: 700;
+    background: #21733a;
+}
+
+a.new-create-text {
+    color: white;
+    font-size: 15px;
+    padding: 28px;
+    font-style: italic;
+
+}
+
+
+/*======================  Help Poor Layout  =============================*/
+
+.help-manu{
+}
+
+.help-box{
+    border: 1px solid black;
+    
+}
+.help-img{
+}
+.help-img img{
+        width: 100%;
+        height: 190px;
+
+}
+.help-info{
+    background: #faff10;
+    height: 140px;
+    text-align: center;
+    padding: 20px;
+}
+.help-info:hover{
+    background: #736b6b;
+    transition: 1s;
+    color: #fff;
+}
+
+/*====================== End  Help Poor Layout  =============================*/
+
+
+/*====================== Volenteer Layout  =============================*/
+
+.vol_main_menu {
+    background: forestgreen;
+    width: 150px;
+    margin: 60px 0px;
+    height: 550px;
+}
+.vol_main_menu img {
+    padding: 18px 12px;
+    height: 160px;
+    width: 151px;
+    border: none;
+    border-radius: 50%;
+}
+ul.vol_menubar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+.vol_menubar li{
+
+}
+.vol_menubar li a{
+    display: block;
+    padding: 16px 15px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+.vol_menubar li a:hover{
+background-color: #176527; 
+
+}
+
+/*====================== End Volenteer Layout  =============================*/
+
+.top_margin {
+    margin-top: 150px;
+}
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #d6cece;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     
+     border:6px solid #7e97ce;
+     background: #fff;
+     
+}
+
+.account-txt {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.per_box {
+    border: 1px solid #0cbd13;
+    margin-top: 30px;
+}
+.per_box_color {
+    background: #0cbd13;
+    text-align: center;
+    color: #fff;
+}

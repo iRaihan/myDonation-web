@@ -1,0 +1,645 @@
+.his-img img{
+    height: 400px;
+    width: 400px;
+    
+}
+.mrg20{
+        margin: 10px;
+    margin-bottom: 95px;
+}
+.donate-btn a{
+        border: 1px solid green;
+    padding: 2px 15px;
+    border-radius: 3px;
+    color: #2cbd0c;
+
+}
+.donate-btn1 {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.img-services img{
+    width: 100%;
+    height: 100%;
+}
+.img-services{
+    width: 100%;
+    height: 200px;
+}
+.btn-circle {
+width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 30px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.plr-box-right{
+    float: right;
+    margin-right: -148px;
+}
+.plr-box-left{
+    margin-left: -144px;
+}
+
+
+.slider-event-img{
+   position: relative;
+  text-align: center;
+  color: white;
+    
+}
+.slider-event-text{
+ position: absolute;
+  bottom: 1px;
+
+}
+.slider-img-num a {
+    position: absolute;
+    padding: 1px 22px;
+    color: #f70436!important;
+    font-size: 26px;
+}
+.slider-img-num i {
+    position: absolute;
+    padding: 40px 26px;
+    font-size: 16px;
+    color: #f70436;
+}
+.slider-event-text l {
+    margin: 0px;
+    font-size: 18px;
+    padding: 4px 4px;
+    font-weight: 800;
+    border-radius: 0px 17px;
+    border-bottom: 3px solid #f70436;
+    color: #383a38;
+    padding: 2px 8px;
+}
+.slider-event-text button {
+    float: right;
+}
+.agree_btn {
+    color: #fff!important;
+    background: #0ace48;
+    margin: 10px 10px;
+    font-size: 20px;
+    padding: 4px 22px;
+    font-weight: 600;
+    transition: .5s;
+}
+.agree_btn:hover{
+    background: red;
+}
+.slider-event-text p{
+    height: 71px;
+    width: 70px;
+    background-color: #ff241ca1;
+    padding: 22px 12px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    
+}
+/*==========================account===========================*/
+/*.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    align-items: stretch;
+    padding-top: 54px;
+
+}
+
+#sidebar {
+    max-width: 200px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+    text-align: center;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+.navbar-right a{
+color: red;
+}
+
+.acc_main_header{
+    background: #8291d0;
+    box-shadow: 10px 5px 5px #65676d6b;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+    width: 280px;
+    border: 3px solid #ecf4f5;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #49c189;
+}
+
+.sidebar-header img {
+    padding: 20px;
+    background: #8291d0;
+    border: none;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #2cd416;
+    background: #54e60c;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.acc_events_box {
+    border: 3px solid #8291d0;
+    border-style: dotted;
+    background: #ffffff;
+    margin: 20px;
+    height: 232px;
+}
+
+.acc_events_info{
+    padding: 10px;
+}
+
+.acc_events_img{
+       padding: 10px 8px;
+}
+.acc_events_img img{
+width: 100%;
+}
+
+.acc_events_text {
+    float: right;
+    margin-top: -20px;
+}
+
+
+
+
+.agree_button button {
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 23px;
+    transition: .5s;
+    border: 1px solid #2cd416;
+    text-align: center;
+    background: #54e60c;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 3px;
+    float: right;
+}
+
+
+.agree_button button:hover{
+    color:#54e60c;
+    background: #fff;
+    border: 1px solid #2cd416;
+    border-radius: 5px;
+}
+
+/*==========================---------=++++++++++++++=*/
+
+.main-header_account {
+    background: #fff;
+    border-bottom: 2px solid #4b4276;
+}
+.serch_box {
+    padding-top: 13px;
+    margin-left: 64px;
+}
+.search_btn {
+    background: #44339a;
+    color: #fff;
+}
+.login_box {
+    padding: 20px 10px;
+    font-size: 18px;
+}
+.login_box a {
+    color: #92cf5c;
+    font-weight: 700;
+}
+.account_menu_img img {
+    
+    border:3px solid #a4ec51ed;
+    border-radius: 50%;
+    padding: 3px;
+    background: #fff;
+}
+
+.account_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.account_menu ul li {
+    list-style: none;
+    background:#4b4276!important;
+    padding: 4px 5px;
+
+
+}
+.account_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ffffff2b;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    z-index: 9999;
+}
+.account_menu {
+    width: 12%;
+    padding: 9px 0px;
+    background: #352b65;
+    margin-top: -70px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.account_menu_btn {
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+.account_menu_btn:after {
+    content:"";
+    position: absolute;
+    left:-95%;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background-color: #15d468;
+    transition:all .5s ease;
+    z-index: -1;
+
+
+}
+.account_menu_btn:hover:after{
+   left:0px;
+    background: #15d468;
+   
+}
+.account_menu_img b {
+    color: #fff;
+}
+.account_menu_img {
+    margin: 30px 0px;
+    background: #92cf5c;
+}
+.account_menu a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 24px;
+}
+.pad_left {
+    padding: 0px 66px;
+}
+
+
+/*==========================End account===========================*/
+
+.search_blood_box {
+    margin-top: 30px;
+}
+.blood_header {
+    text-align: center;
+    padding: 25px;
+}
+.table_style {
+    background: #ffffff;
+    border: 1px solid #8893ff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.table_style table th {
+    padding: 0px 50px 10px 11px;
+}
+
+.table_style table td{
+
+    padding: 5px 10px;
+
+}
+.causes_post_name {
+font-size: 15px;
+    color: #13bb39;
+}
+.post_tite {
+    font-size: 20px;
+    font-family: serif;
+    color: black;
+    font-weight: bold;
+}
+
+.post_tite p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 13px;
+    margin-bottom: 20px
+}
+
+.causes_location_box hr {
+    margin: 0px 0px 4px 0px;
+    padding: 0;
+    border-bottom: dashed 1px #ccc;
+    border-top: 0;
+}
+.causes_location_box {
+    margin-top: 10px;
+    color: #f94545;
+    font-size: 14px;
+}
+.donar-btn3 {
+    background: #0ace48;
+    color: #fff!important;
+    font-weight: 500;
+    transition: .5s;
+}
+.section-header-title h2 {
+    color: #fff;
+    font-size: 39px;
+}
+.donar-btn3:hover{
+    background: #009d35;
+    transition: background .4s;
+    color: #fff;
+}
+
+
+.sub-help-img img {
+    width: 100%;
+    height: 350;
+}
+
+.sub-help-info strong {
+    font-size: 25px;
+}
+
+.sub-help-box {
+    margin: 20px;
+}
+/*============volunteer causes page=================*/
+
+.view_box {
+    margin-top: 20px;
+    float: right;
+}
+.view_box a {
+    border: none;
+    padding: 6px 12px;
+    background: #30cbe6;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.post_btn {
+    margin-top: 8px;
+    float: right;
+    padding: 0px 13px;
+}
+.post_btn a {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    background: #23d222;
+    border-radius: 3px;
+    padding: 6px 12px 8px 12px;
+}
+.post_box input {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border: 1px solid #f9248982;
+}
+
+.post_box textarea {
+    width: 100%;
+    padding: 20px 14px;
+    border: 1px solid #f9248982;
+}
+.post_box select {
+    border: 1px solid #f9248982;
+    color: #da127f;
+}
+
+.insert_post_box {
+    border: 1px solid #cec5c5a8;
+    height: 55px;
+    background: #d2f5f71f;
+    margin-top: 7px;
+}
+.post_box {
+    border-top: 5px solid #92cf5c;
+    margin-top: 30px;
+}
+.account_table_box {
+    border: 1px solid #756ab5;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.account_table_box table thead{
+    background: #44339aba;
+    color: #fff;
+}
+.account_table_box th {
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.account_table_box td {
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #756ab5;
+    text-align: center;
+    padding: 8px 0px;
+}
+.edit_btn i {
+    border-radius: 5px;
+    border: none;
+    padding: 7px 9px;
+    color: #fff;
+    background: #776ab5;
+}
+.delete_btn {
+    margin-top: 5px;
+}
+.delete_btn i {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 20px;
+    color: #fff;
+    background: #ff1b82f0;
+}
+/*============Endvolunteer causes page=================*/
+/*============Donor Donate List page=================*/
+.sevice_ammout_box {
+    margin: 40px 0px;
+    border: 2px solid #33a3f5;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+.sevice_title {
+    width: 100%;
+    background: #33a3f5;
+    padding: 5px 0px;
+    color: #fff;
+}
+.ammount_title {
+    padding: 5px;
+    
+}
+.sevice_title h3 {
+    font-size: 30px;
+}
+.cause_ammout_box {
+    margin: 40px 0px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid #7d31a2cf;
+    border-radius: 5px;
+}
+.cause_title {
+    background: #7d31a2cf;
+    width: 100%;
+    padding: 5px 0px;
+    color: #fff;
+}
+.cause_title h3 {
+    font-size: 30px;
+}
+.other_ammout_box {
+    margin: 40px 0px;
+    border: 2px solid #219a52e8;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+.other_title {
+    background: #219a52e8;
+    padding: 5px;
+    width: 100%;
+    color: #ffff;
+}
+.total_ammout_box {
+    width: 100%;
+    border: 2px solid #f3228a;
+    border-radius: 5px;
+    margin: 40px 0px;
+    text-align: center;
+}
+.total_title {
+    background: #f3228a;
+    padding: 5px 0px;
+    color: #fff;
+}
+.ammount_total_title {
+    padding: 5px 0px;
+}
+
+/*============End Donor Donate List page=================*/
+
+.bg_back {
+    background: #e6e6e65c;
+}
+.white{
+    background:#fff;
+}
